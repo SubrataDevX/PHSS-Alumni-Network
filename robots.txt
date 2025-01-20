@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /css
+Disallow: /images
+Disallow: /fonts
+Disallow: /js
+Disallow: /files
+
+Sitemap: https://accetion.com/sitemap.xml

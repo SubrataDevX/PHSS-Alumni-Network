@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PHSS Alumni Network</title>
+    <meta name="description" content="Pabiacherra (PHSS) class XII school official alumni association" />
+    <meta content="website" />
+    <meta name="twitter:card" content="phss alumni network" />
+    <meta name="twitter:creator" content="phss alumni network" />
+    <meta name="twitter:title" content="PHSS Alumni Network" />
+    <meta name="twitter:description" content="Pabiacherra (PHSS) class XII school official alumni association" />
+	<meta http-equiv="Cache-control" content="public" max-age="86400">
+	<noscript>Best viewed in Google Chrome</noscript>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">	
+	<link rel="canonical" href="https://www.phssalumni.org/" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" as="style" >
+    <link rel="stylesheet" href="./css/global-styles.min.css" as="style" />
+    <link rel="stylesheet" href="./css/index.min.css" as="style" />
+    <link rel="stylesheet" href="./css/steps.min.css" as="style" />
+    <link rel="stylesheet" href="./css/idp.min.css" as="style" />
+    <link rel="stylesheet" href="./css/responsive.min.css" as="style" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery.min.js"></script> 
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/idp.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-W6M5PS1QS4"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-W6M5PS1QS4');
+	</script>
+	<!-- Google tag (gtag.js) -->
+	<script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "WebSite",
+	  "name": "PHSS Alumni Network",
+	  "url": "https://phssalumni.org",
+	  "sameAs": [
+		"https://www.accetion.com",
+		"https://www.linkedin.com/company/accetion/",
+		"https://www.facebook.com/accetionlimited",
+		"https://twitter.com/accetionlimited"
+	  ]
+	}
+	</script>
+	<script>
+		$(document).ready(function(){
+		$('.customer-logos').slick({
+			slidesToShow: 6,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 1500,
+			arrows: false,
+			dots: false,
+			pauseOnHover: false,
+			responsive: [{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 4
+				}
+			}, {
+				breakpoint: 520,
+				settings: {
+					slidesToShow: 3
+				}
+			}]
+		});
+	});
+	</script>
+	<script type="text/javascript">
+
+	window.addEventListener("resize", function() {
+		"use strict"; window.location.reload(); 
+	});
+
+
+	document.addEventListener("DOMContentLoaded", function(){
+
+		// make it as accordion for smaller screens
+		if (window.innerWidth > 992) {
+
+			document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
+				
+				everyitem.addEventListener('mouseover', function(e){
+
+					let el_link = this.querySelector('a[data-bs-toggle]');
+
+					if(el_link != null){
+						let nextEl = el_link.nextElementSibling;
+						el_link.classList.add('show');
+				 		nextEl.classList.add('show');
+					}
+					
+				});
+				everyitem.addEventListener('mouseleave', function(e){
+				 	let el_link = this.querySelector('a[data-bs-toggle]');
+					
+					if(el_link != null){
+						let nextEl = el_link.nextElementSibling;
+						el_link.classList.remove('show');
+				 		nextEl.classList.remove('show');
+					}
+					
+
+				})
+			});
+
+		}
+	}); 
+</script>
+</head>
+<body>
+    <div>
+        <header id="menubar" class="stickyHeader">
+            <div class="menuDiv">
+                <!---- Menu Start Here --->
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand">
+                        <span class="logo-img"><b>PHSS Alumni Network</b></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto py-4 py-md-0" style="font-weight: bold;">
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="about-us">About Us</a> </li>
+							<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="use-cases">Gallery</a> </li>
+							<li class="nav-item dropdown pl-4 pl-md-0 ml-0 ml-md-4">
+								<a class="nav-link brandColor textDecorationNone" data-bs-toggle="dropdown" href="products">News & Events</a>
+								<ul class="dropdown-menu dropdown-menu-end">
+								  <li><a class="dropdown-item" href="products"><font style="color:red">Silver Jubilee of 1999</font></a></li>
+								  <li><a class="dropdown-item" href="products#aceplus"><font style="color:red">TV talk show</font></a></li>
+								  <li><a class="dropdown-item" href="products#services"><font style="color:red">Ashram Visit</font></a></li>
+								  <li><a class="dropdown-item" ><HR></a></li>
+								  <li><a class="dropdown-item" href="products#services">Batch Information</a></li>
+								  <li><a class="dropdown-item" href="products#services">Alumni Reunion</a></li>
+								  <li><a class="dropdown-item" href="products#services">Regular Meetups</a></li>
+							
+								</ul>
+							</li>                            
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="contact-us">Contact Us</a> </li>
+                        </ul>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <!-- <a href="https://trial.aceplus.accetion.com" target="_blank" style="text-decoration:none"> -->
+                            <!-- <button class="css-1dl8pqr">Register</button> -->
+                        <!-- </a> -->
+                    </div>
+                </nav>
+                <!---- Menu End Here --->
+            </div>
+        </header>
+        <main class="css-0">
+		<br><br><br>
+            <section id="who-we-are" class="css-vurnku">
+                <div class="css-1whb87a">
+                    <div class="css-h85bl">
+                        <div class="responsive">
+						  <div class="gallery">
+							<a target="_blank" href="img_5terre.jpg">
+							  <img src="img_5terre.jpg" alt="Cinque Terre">
+							</a>
+							<div class="desc">Add a description of the image here</div>
+						  </div>
+						</div>
+
+						<div class="responsive">
+						  <div class="gallery">
+							<a target="_blank" href="img_forest.jpg">
+							  <img src="img_forest.jpg" alt="Forest">
+							</a>
+							<div class="desc">Add a description of the image here</div>
+						  </div>
+						</div>
+
+						<div class="responsive">
+						  <div class="gallery">
+							<a target="_blank" href="img_lights.jpg">
+							  <img src="img_lights.jpg" alt="Northern Lights">
+							</a>
+							<div class="desc">Add a description of the image here</div>
+						  </div>
+						</div>
+
+						<div class="responsive">
+						  <div class="gallery">
+							<a target="_blank" href="img_mountains.jpg">
+							  <img src="img_mountains.jpg" alt="Mountains">
+							</a>
+							<div class="desc">Add a description of the image here</div>
+						  </div>
+						</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="css-sopawf">
+            <div class="css-1whb87a">
+                <div class="css-i4q4z1">
+                    <div class="css-1hhpd6b">
+                        <span class="css-vurnku">
+                            &copy; PHSS Alumni Network, 2025
+                        </span>
+                    </div>
+                    <div align="right">
+                        <ul class="css-1t7kdg0" align="right">
+                            <li>
+                                <a rel="noreferrer" href="https://www.linkedin.com/company/accetion" class="social-icon" target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://twitter.com/accetionlimited" class="social-icon" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://www.youtube.com/@phssalumni" class="social-icon" target="_blank">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://www.facebook.com/phssalumni" class="social-icon" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+							<!-- <li> -->
+                                <!-- <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="https://blogs.accetion.com" target="_blank">Blogs</a> -->
+                            <!-- </li> -->
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/cookiepolicy.pdf" target="_blank">Cookie Policy</a>
+                            </li>
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/privacypolicy.pdf" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/eula.pdf" target="_blank">User Agreement</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

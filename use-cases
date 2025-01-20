@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Accetion - Top Use Cases</title>
+        <meta name="description" content="Here are a few examples of how our products have been used in various industries. Additionally, we have a wide range of AI solutions and can help you find the right fit for your organization. Please contact us to discuss the possibilities." />
+        <meta content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator" content="Accetion, Inc" />
+        <meta name="twitter:title" content="Accetion - Top Use Cases" />
+        <meta name="twitter:description" content="Here are a few examples of how our products have been used in various industries. Additionally, we have a wide range of AI solutions and can help you find the right fit for your organization. Please contact us to discuss the possibilities." />
+		<meta http-equiv="Cache-control" content="public" max-age="86400">
+		<noscript>Best viewed in Google Chrome</noscript>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="./css/bootstrap.min.css" as="style" />
+		<link rel="stylesheet" href="./css/global-styles.min.css" as="style" />
+		<link rel="stylesheet" href="./css/index.min.css" as="style" />
+		<link rel="stylesheet" href="./css/responsive.min.css" as="style" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="js/jquery.min.js"></script> 
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'G-W6M5PS1QS4');
+		</script>
+		<script type="text/javascript">
+
+			window.addEventListener("resize", function() {
+				"use strict"; window.location.reload(); 
+			});
+
+
+			document.addEventListener("DOMContentLoaded", function(){
+
+				// make it as accordion for smaller screens
+				if (window.innerWidth > 992) {
+
+					document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
+						
+						everyitem.addEventListener('mouseover', function(e){
+
+							let el_link = this.querySelector('a[data-bs-toggle]');
+
+							if(el_link != null){
+								let nextEl = el_link.nextElementSibling;
+								el_link.classList.add('show');
+								nextEl.classList.add('show');
+							}
+							
+						});
+						everyitem.addEventListener('mouseleave', function(e){
+							let el_link = this.querySelector('a[data-bs-toggle]');
+							
+							if(el_link != null){
+								let nextEl = el_link.nextElementSibling;
+								el_link.classList.remove('show');
+								nextEl.classList.remove('show');
+							}
+							
+
+						})
+					});
+
+				}
+			}); 
+		</script>
+    </head>
+    <body>
+        <div>
+            <header id="menubar" class="stickyHeader">
+				<div class="menuDiv">
+					<!---- Menu Start Here --->
+					<nav class="navbar navbar-expand-md navbar-light">
+						<a class="navbar-brand" href="/">
+							<span class="logo-img"><img src="./images/Logo.png" height="50px" alt="Accetion - Global Artificial Intelligence (AI) Solution" /></span>
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto py-4 py-md-0" style="font-weight: bold;">
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="about-us">About Us</a> </li>
+							<li class="nav-item dropdown pl-4 pl-md-0 ml-0 ml-md-4">
+								<a class="nav-link brandColor textDecorationNone" data-bs-toggle="dropdown" href="products">Solutions</a>
+								<ul class="dropdown-menu dropdown-menu-end">
+								  <li><a class="dropdown-item" href="products">Digital Invoicing &nbsp;&nbsp; <font style="color:red">(free)</font></a></li>
+								  <li><a class="dropdown-item" href="products#aceplus">Intelligent Invoice Processing</a></li>
+								  <li><a class="dropdown-item" ><HR></a></li>
+								  <li><a class="dropdown-item" href="products#services">AI/ML Consulting</a></li>
+								  <li><a class="dropdown-item" href="products#services">Automation Consulting</a></li>
+								  <li><a class="dropdown-item" href="products#services">Cloud Consulting</a></li>
+								  <li><a class="dropdown-item" href="products#services">Cloud Migration</a></li>
+								</ul>
+							</li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" >Use Cases</a> </li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="contact-us">Contact Us</a> </li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="https://trial.aceplus.accetion.com" target="_blank">Login</a> </li>
+                        </ul>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://trial.aceplus.accetion.com" target="_blank" style="text-decoration:none">
+                            <button class="css-1dl8pqr">Create Account</button>
+                        </a>
+                    </div>
+					</nav>
+					<!---- Menu End Here --->
+				</div>
+			</header>
+            <main class="css-0">
+			</br></br></br>
+                <section id="e-commerce" class="css-u0qldy">
+                    <div class="css-1whb87a">
+						<br>
+                        <div class="sectionInsideDiv">
+                            <div class="css-3rtbj">
+								<div class="css-10ofgyx">
+                                    <p style="color: #28d1dc;" class="css-1382pv9">20$</p>
+                                    <p class="css-aecppi">Average cost of invoice re-processing</p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #ff753a;" class="css-1382pv9">8%</p>
+                                    <p class="css-aecppi">Average revenue loss due to out of stocks</p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #fa578e;" class="css-1382pv9">1-2%</p>
+                                    <p class="css-aecppi">Monthly interest for late invoice processing</p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #28dcb2;" class="css-1382pv9">1-4%</p>
+                                    <p class="css-aecppi">Customer lost due to data privacy compromised</p>
+                                </div>
+                            </div>
+                            <div class="css-vurnku">
+                                <div class="css-1yn2dcp">
+                                    <h2 class="title-orange">
+                                        If you are facing <br />
+                                        any of the following?
+                                    </h2>
+                                    <p class="css-86pyo9">
+									1. Receive million invoices but can't process them on time.<br>
+									2. Can't outsource invoice processing due to your compliance.<br>
+									3. Invoice processing cost is higher due to large in-house team.<br>
+									4. Higher re-processing rate due to human errors.<br>
+									5. Historic data driven rules missing due to manual processing.<br>
+									6. Afraid of financial data privacy.<br>
+									7. Regularly missing out stocks due to late supplier payments.<br> 
+									8. You receive seasonal invoices so can't maintain a fixed team.<br>
+									9. Missing centralized invoice processing due to traditional processes.<br>
+									</p>
+									<h2 class="title-orange">
+                                        Then read below <br />
+                                        how ACE Plus solves all!
+                                    </h2>
+                                </div>                                                              
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				<section id="who-we-are" class="css-vurnku">
+					<div class="css-1whb87a">
+						<br>
+						<div class="css-14kdmnz">
+                            <h2 class="title">ACE Plus - Intelligent Invoice Processing</h2>
+                        </div>
+						<div class="css-h85bl">
+							<div class="css-1cxxkp5">
+									<p class="css-86pyo9">ACE Plus is unique in idustry when it comes to scalability, it can process millions of invoices in an hour. Unlike traditional SaaS models, you have the choice of either a dedicated cloud infra or hosting on your premises. The automated system reduces manual effort by up to 95%, therefore making your employees tenfold more productive. AI-driven data extraction is precise and eliminates duplicates, thus reducing errors and the need for re-processing. With machine learning models, historical data is leveraged to apply business rules and detect anomalies early. Additionally, an end to end automated process, less human in the loop provides better data privacy and faster and centralized invoice processing. Pay-As-You-Go model allows for no-commitment usage and payment only for what you use.  
+										</p>
+							</div>
+							<div class="idpAnimation">
+								<img class="rightsideImage" src="./images/ace.png" alt="ACE Plus" />
+							</div>
+						</div>
+					</div>
+				</section>
+           </main><footer class="css-sopawf">
+            <div class="css-1whb87a">
+                <div class="css-i4q4z1">
+                    <div class="css-1hhpd6b">
+                        <span class="css-vurnku">
+                            Copyright by
+                            <!-- -->2022<!-- -->
+                            Accetion, Inc
+                        </span>
+                    </div>
+                    <div align="right">
+                        <ul class="css-1t7kdg0" align="right">
+                            <li>
+                                <a rel="noreferrer" href="https://www.linkedin.com/company/accetion" class="social-icon" target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://twitter.com/accetionlimited" class="social-icon" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://www.youtube.com/@accetion" class="social-icon" target="_blank">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://www.facebook.com/accetionlimited" class="social-icon" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+							<li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="https://blogs.accetion.com" target="_blank">Blogs</a>
+                            </li>
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/cookiepolicy.pdf" target="_blank">Cookie Policy</a>
+                            </li>
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/privacypolicy.pdf" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/eula.pdf" target="_blank">User Agreement</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>

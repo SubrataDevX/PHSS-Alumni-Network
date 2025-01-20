@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+<url>
+  <loc>https://accetion.com/</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://accetion.com/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://accetion.com/" /> 
+  <lastmod>2023-01-27T20:47:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://accetion.com/about-us</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://accetion.com/about-us" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://accetion.com/about-us" /> 
+  <lastmod>2023-01-28T20:03:58+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://accetion.com/products</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://accetion.com/products" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://accetion.com/products" /> 
+  <lastmod>2023-01-27T20:52:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://accetion.com/use-cases</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://accetion.com/use-cases" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://accetion.com/use-cases" /> 
+  <lastmod>2023-01-27T20:52:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://accetion.com/contact-us</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://accetion.com/contact-us" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://accetion.com/contact-us" /> 
+  <lastmod>2023-01-27T20:52:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blogs.accetion.com</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blogs.accetion.com/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://blogs.accetion.com/" /> 
+  <lastmod>2023-01-27T20:52:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://accetion.com/files/cookiepolicy.pdf</loc>
+  <lastmod>2022-11-05T15:53:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://accetion.com/files/privacypolicy.pdf</loc>
+  <lastmod>2022-11-05T15:53:26+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://accetion.com/files/eula.pdf</loc>
+  <lastmod>2022-11-05T15:53:22+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

@@ -1,0 +1,124 @@
+
+/*No media query since this is the default in Bootstrap because it is "mobile first" */
+.BannerTextHeading {font-size:2rem!important;} /*1rem = 16px*/
+/*
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .BannerTextHeading {font-size:2rem!important;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .BannerTextHeading {font-size:2rem!important;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .BannerTextHeading {font-size:2.5rem!important;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .BannerTextHeading {font-size:3.5rem!important;} /*1rem = 16px*/    
+}
+
+
+/*No media query since this is the default in Bootstrap because it is "mobile first" */
+.BannerTextHeading1 {font-size:1.6rem!important;} /*1rem = 16px*/
+/*
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .BannerTextHeading1 {font-size:1.6rem!important;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .BannerTextHeading1 {font-size:2rem!important;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .BannerTextHeading1 {font-size:2rem!important;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .BannerTextHeading1 {font-size:2.5rem!important;} /*1rem = 16px*/    
+}
+
+/*No media query since this is the default in Bootstrap because it is "mobile first" */
+.BannerTextHeading2 {font-size:1.1rem!important;} /*1rem = 16px*/
+/*
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .BannerTextHeading2 {font-size:1.1rem!important;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .BannerTextHeading2 {font-size:1rem!important;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .BannerTextHeading2 {font-size:1.7rem!important;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .BannerTextHeading2 {font-size:2rem!important;} /*1rem = 16px*/    
+}
+
+/*No media query since this is the default in Bootstrap because it is "mobile first" */
+.BannerTextHeading3 {font-size:.9rem!important;} /*1rem = 16px*/
+/*
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .BannerTextHeading3 {font-size:1rem!important;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .BannerTextHeading3 {font-size:1rem!important;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .BannerTextHeading3 {font-size:1.5rem!important;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .BannerTextHeading3 {font-size:1rem!important;} /*1rem = 16px*/    
+}
+
+.responsive-image {
+	margin-left: 20%!important;
+	max-width: 500px!important;
+	height: auto!important;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 300px) {  
+  .responsive-image {margin-left: 5%!important; max-width:300px!important;} 
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .responsive-image {margin-left: 5%!important; max-width:300px!important;} 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .responsive-image {margin-left: 10%!important; max-width:350px!important;} 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .responsive-image {margin-left: 12%!important; max-width:400px!important;} 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .responsive-image {margin-left: 15%!important; max-width:500px!important;}   
+}

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>ACE Plus - Intelligent Invoice Processing</title>
+        <meta name="description" content="We offer a wide range of AI solutions that will suit any size of organization to optimize business and cost efficiences. Unlock the potential of your business and maximize your profits. Start your journey with intelligent invoice processing." />
+        <meta content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator" content="Accetion, Inc" />
+        <meta name="twitter:title" content="ACE Plus - Intelligent Invoice Processing" />
+        <meta name="twitter:description" content="We offer a wide range of AI solutions that will suit any size of organization to optimize business and cost efficiences. Unlock the potential of your business and maximize your profits. Start your journey with intelligent invoice processing." />
+		<meta http-equiv="Cache-control" content="public" max-age="86400">
+		<noscript>Best viewed in Google Chrome</noscript>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="./css/bootstrap.min.css" as="style" />
+		<link rel="stylesheet" href="./css/global-styles.min.css" as="style" />
+		<link rel="stylesheet" href="./css/index.min.css" as="style" />
+		<link rel="stylesheet" href="./css/ace.min.css" as="style" >
+		<link rel="stylesheet" href="./css/responsive.min.css" as="style" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="js/jquery.min.js"></script> 
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'G-W6M5PS1QS4');
+		</script>
+		<script type="text/javascript">
+
+			window.addEventListener("resize", function() {
+				"use strict"; window.location.reload(); 
+			});
+
+
+			document.addEventListener("DOMContentLoaded", function(){
+
+				// make it as accordion for smaller screens
+				if (window.innerWidth > 992) {
+
+					document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
+						
+						everyitem.addEventListener('mouseover', function(e){
+
+							let el_link = this.querySelector('a[data-bs-toggle]');
+
+							if(el_link != null){
+								let nextEl = el_link.nextElementSibling;
+								el_link.classList.add('show');
+								nextEl.classList.add('show');
+							}
+							
+						});
+						everyitem.addEventListener('mouseleave', function(e){
+							let el_link = this.querySelector('a[data-bs-toggle]');
+							
+							if(el_link != null){
+								let nextEl = el_link.nextElementSibling;
+								el_link.classList.remove('show');
+								nextEl.classList.remove('show');
+							}
+							
+
+						})
+					});
+
+				}
+			}); 
+		</script>
+    </head>
+    <body>
+        <div>
+            <header id="menubar" class="stickyHeader">
+				<div class="menuDiv">
+					<!---- Menu Start Here --->
+					<nav class="navbar navbar-expand-md navbar-light">
+						<a class="navbar-brand" href="/">
+							<span class="logo-img"><img src="./images/Logo.png" height="50px" alt="Accetion - Global Artificial Intelligence (AI) Solution" /></span>
+						</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto py-4 py-md-0" style="font-weight: bold;">
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="about-us">About Us</a> </li>
+							<li class="nav-item dropdown pl-4 pl-md-0 ml-0 ml-md-4">
+								<a class="nav-link brandColor textDecorationNone" data-bs-toggle="dropdown" >Solutions</a>
+								<ul class="dropdown-menu dropdown-menu-end">
+								  <li><a class="dropdown-item" href="products">Digital Invoicing &nbsp;&nbsp; <font style="color:red">(free)</font></a></li>
+								  <li><a class="dropdown-item" href="products#aceplus">Intelligent Invoice Processing</a></li>
+								  <li><a class="dropdown-item" ><HR></a></li>
+								  <li><a class="dropdown-item" href="products#services">AI/ML Consulting</a></li>
+								  <li><a class="dropdown-item" href="products#services">Automation Consulting</a></li>
+								  <li><a class="dropdown-item" href="products#services">Cloud Consulting</a></li>
+								  <li><a class="dropdown-item" href="products#services">Cloud Migration</a></li>
+								</ul>
+							</li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="use-cases">Use Cases</a> </li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="contact-us">Contact Us</a> </li>
+                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link brandColor textDecorationNone" href="https://trial.aceplus.accetion.com" target="_blank">Login</a> </li>
+                        </ul>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://trial.aceplus.accetion.com" target="_blank" style="text-decoration:none">
+                            <button class="css-1dl8pqr">Create Account</button>
+                        </a>
+                    </div>
+					</nav>
+					<!---- Menu End Here --->
+				</div>
+			</header>
+            <main class="css-0">
+				<br><br><br>
+				<section id="Digital Invoice" class="css-1ylkjrg">				
+                    <div class="css-1whb87a">
+                        <div class="css-o0asfe">
+                            <div class="css-vurnku"><img src="./images/di.png" alt="Digital Invoicing" class="css-9taffg" /></div>
+                            <div class="css-vurnku">
+                                <div class="css-o0a5so">
+									<br>
+                                    <h2 class="title-green">Digital Invoicing &nbsp;&nbsp; <font style="color:red">(free of charge)</font></h2>
+                                    <p class="css-86pyo9">Global yet simple online platform for generating e-Invoices in multiple languages. Businesses (Sellers) can generate invoices based on their country specific needs and compliances.
+									<a target="_blank" style="text-decoration:none"><button class="css-1dl8pqr Try-500-Invoices">Register Now</button></a>
+									</p>
+                                </div>
+                                <p class="css-2i7fq8">
+                                    <img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAWlBMVEUAAABAz69A369A169A2q892a9A2a9A3K892q9A2q8+27NA268+27I+3K9A2q9A2q8/27I/3LA/3LI+2a8/2rE/27A/27E/3bE/2rA/2rE/3LE/27E/3LE/27Epf/r/AAAAHXRSTlMAEBAgMFBQUGBgf4CPkJCgr6+vsM/Pz8/f39/v73JkpJMAAACUSURBVBgZXcGBYoIgFIbRn+GcV5mVNRfo9/6vOSKW5jkqXHeOMJ87bdqVKnWqAju9ip43QZlx0EpK7IwTLE7GzkkGdLqwmdWswFW/vETnE1kS2TiQRe8ThciCmsji3cyT7mRBPjaaeLrpwkPyUqC6yijSZ88/08fKQZT0xYEp++bNoGJgZ1RlkWpptbHpB+6TOT38AYFLIEyKaX9xAAAAAElFTkSuQmCC"
+                                        alt="Awesome Features"
+                                        class="css-9taffg"
+                                    />
+                                    Designed on today's need
+                                </p>
+                                <p class="css-2i7fq8">
+                                    <img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAWlBMVEUAAABAz69A369A169A2q892a9A2a9A3K892q9A2q8+27NA268+27I+3K9A2q9A2q8/27I/3LA/3LI+2a8/2rE/27A/27E/3bE/2rA/2rE/3LE/27E/3LE/27Epf/r/AAAAHXRSTlMAEBAgMFBQUGBgf4CPkJCgr6+vsM/Pz8/f39/v73JkpJMAAACUSURBVBgZXcGBYoIgFIbRn+GcV5mVNRfo9/6vOSKW5jkqXHeOMJ87bdqVKnWqAju9ip43QZlx0EpK7IwTLE7GzkkGdLqwmdWswFW/vETnE1kS2TiQRe8ThciCmsji3cyT7mRBPjaaeLrpwkPyUqC6yijSZ88/08fKQZT0xYEp++bNoGJgZ1RlkWpptbHpB+6TOT38AYFLIEyKaX9xAAAAAElFTkSuQmCC"
+                                        alt="Awesome Features"
+                                        class="css-9taffg"
+                                    />
+                                    Built for noble cause
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				<section id="aceplus" class="css-1ylkjrg">				
+                    <div class="css-1whb87a">
+                        <div class="css-o0asfe">
+                            <div class="css-vurnku"><img src="./images/ace.webp" alt="ACE Plus - Intelligent Invoice Processing" class="css-9taffg" /></div>
+                            <div class="css-vurnku">
+                                <div class="css-o0a5so">
+									<br>
+                                    <h2 class="title">Advanced Cognitive Extraction Plus (ACE<sup>+</sup>)</h2>
+                                    <p class="css-86pyo9">ACE<sup>+</sup> can efficiently extract data from a variety of invoice formats, runs business rules and eliminates duplicates, finally exports data to client's financial system. ACE<sup>+</sup> eliminates 90% of manual effort, resulting your employee can 
+									process 10x more invoices daily while still meeting all your business compliances.</p>
+                                </div>
+                                <p class="css-2i7fq8">
+                                    <img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAWlBMVEUAAABAz69A369A169A2q892a9A2a9A3K892q9A2q8+27NA268+27I+3K9A2q9A2q8/27I/3LA/3LI+2a8/2rE/27A/27E/3bE/2rA/2rE/3LE/27E/3LE/27Epf/r/AAAAHXRSTlMAEBAgMFBQUGBgf4CPkJCgr6+vsM/Pz8/f39/v73JkpJMAAACUSURBVBgZXcGBYoIgFIbRn+GcV5mVNRfo9/6vOSKW5jkqXHeOMJ87bdqVKnWqAju9ip43QZlx0EpK7IwTLE7GzkkGdLqwmdWswFW/vETnE1kS2TiQRe8ThciCmsji3cyT7mRBPjaaeLrpwkPyUqC6yijSZ88/08fKQZT0xYEp++bNoGJgZ1RlkWpptbHpB+6TOT38AYFLIEyKaX9xAAAAAElFTkSuQmCC"
+                                        alt="Awesome Features"
+                                        class="css-9taffg"
+                                    />
+                                    Designed on industry specific needs
+                                </p>
+                                <p class="css-2i7fq8">
+                                    <img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAWlBMVEUAAABAz69A369A169A2q892a9A2a9A3K892q9A2q8+27NA268+27I+3K9A2q9A2q8/27I/3LA/3LI+2a8/2rE/27A/27E/3bE/2rA/2rE/3LE/27E/3LE/27Epf/r/AAAAHXRSTlMAEBAgMFBQUGBgf4CPkJCgr6+vsM/Pz8/f39/v73JkpJMAAACUSURBVBgZXcGBYoIgFIbRn+GcV5mVNRfo9/6vOSKW5jkqXHeOMJ87bdqVKnWqAju9ip43QZlx0EpK7IwTLE7GzkkGdLqwmdWswFW/vETnE1kS2TiQRe8ThciCmsji3cyT7mRBPjaaeLrpwkPyUqC6yijSZ88/08fKQZT0xYEp++bNoGJgZ1RlkWpptbHpB+6TOT38AYFLIEyKaX9xAAAAAElFTkSuQmCC"
+                                        alt="Awesome Features"
+                                        class="css-9taffg"
+                                    />
+                                    Built on modern technologies
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				<section id="awesome-feature" class="css-u0qldy">
+                    <div class="css-1whb87a">
+                        <div class="sectionInsideDiv">
+                            <div class="css-3rtbj">
+                                <div class="css-10ofgyx">
+                                    <p style="color: #28d1dc;" class="css-1382pv9">87+</p>
+                                    <p class="css-aecppi">Geo location based SaaS platform</p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #ff753a;" class="css-1382pv9">100%</p>
+                                    <p class="css-aecppi">Accuracy *</p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #fa578e;" class="css-1382pv9">25x</p>
+                                    <p class="css-aecppi">Faster processing than conventional</p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #28dcb2;" class="css-1382pv9">5+</p>
+                                    <p class="css-aecppi">Public & private cloud hosting</p>
+                                </div>
+                            </div>
+                            <div class="css-vurnku">
+                                <div class="css-1yn2dcp">
+                                    <h2 class="title">
+                                        Features those <br />
+                                        make &nbsp; ACE<sup>+</sup> unparalleled
+                                    </h2>
+                                    <p class="css-86pyo9">We want our features to be meaningful to you. We are adding more unique features so that you can use more.</p>
+                                </div>
+                                <p class="css-2i7fq8">
+                                    <img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAWlBMVEUAAABAz69A369A169A2q892a9A2a9A3K892q9A2q8+27NA268+27I+3K9A2q9A2q8/27I/3LA/3LI+2a8/2rE/27A/27E/3bE/2rA/2rE/3LE/27E/3LE/27Epf/r/AAAAHXRSTlMAEBAgMFBQUGBgf4CPkJCgr6+vsM/Pz8/f39/v73JkpJMAAACUSURBVBgZXcGBYoIgFIbRn+GcV5mVNRfo9/6vOSKW5jkqXHeOMJ87bdqVKnWqAju9ip43QZlx0EpK7IwTLE7GzkkGdLqwmdWswFW/vETnE1kS2TiQRe8ThciCmsji3cyT7mRBPjaaeLrpwkPyUqC6yijSZ88/08fKQZT0xYEp++bNoGJgZ1RlkWpptbHpB+6TOT38AYFLIEyKaX9xAAAAAElFTkSuQmCC"
+                                        alt="Awesome Features"
+                                        class="css-9taffg"
+                                    />
+                                    Continuous solutions to evolving problems
+                                </p>
+                                <p class="css-2i7fq8">
+                                    <img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAWlBMVEUAAABAz69A369A169A2q892a9A2a9A3K892q9A2q8+27NA268+27I+3K9A2q9A2q8/27I/3LA/3LI+2a8/2rE/27A/27E/3bE/2rA/2rE/3LE/27E/3LE/27Epf/r/AAAAHXRSTlMAEBAgMFBQUGBgf4CPkJCgr6+vsM/Pz8/f39/v73JkpJMAAACUSURBVBgZXcGBYoIgFIbRn+GcV5mVNRfo9/6vOSKW5jkqXHeOMJ87bdqVKnWqAju9ip43QZlx0EpK7IwTLE7GzkkGdLqwmdWswFW/vETnE1kS2TiQRe8ThciCmsji3cyT7mRBPjaaeLrpwkPyUqC6yijSZ88/08fKQZT0xYEp++bNoGJgZ1RlkWpptbHpB+6TOT38AYFLIEyKaX9xAAAAAElFTkSuQmCC"
+                                        alt="Awesome Features"
+                                        class="css-9taffg"
+                                    />
+                                    Built for more usability
+                                </p>                               
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				<section id="pricing" class="css-5y4zvw">
+                    <div class="css-1whb87a">
+                        <div class="css-14kdmnz">
+                            <h2 class="title">ACE<sup>+</sup> Service Tiers</h2>
+                            <p class="css-86pyo9">Focus only on the values; we will take care of the rest. Talk to our experts and explain your needs, and our team will assist you with the best deal.</p>
+                        </div>
+                        <div class="css-1c1u6hp">
+                            <div class="priceCard recommended css-1jevsmd">
+                                <div class="css-3j2kqe">
+                                    <div class="priceHeader css-vurnku">
+                                        <h3 class="subTitle">Pay As You Go</h3>
+                                        <p class="css-11cewt9">For start-up & small size business</p>
+                                    </div>
+                                </div>
+                                <ul class="css-jguvb3">
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>Product Updates</span>
+                                    </li>
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>API Integration</span>
+                                    </li>
+                                    <li class="unavailable">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#CED7E1" style="color: #ced7e1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm52.7 283.3L256 278.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3l52.7-52.7-52.7-52.7c-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3 6.2-6.2 16.4-6.2 22.6 0l52.7 52.7 52.7-52.7c6.2-6.2 16.4-6.2 22.6 0 6.2 6.2 6.2 16.4 0 22.6L278.6 256l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6-6.2 6.3-16.4 6.3-22.6 0z"
+                                            ></path>
+                                        </svg>
+                                        <span>Dedicated Infrastructure</span>
+                                    </li>
+									<li class="unavailable">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#CED7E1" style="color: #ced7e1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm52.7 283.3L256 278.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3l52.7-52.7-52.7-52.7c-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3 6.2-6.2 16.4-6.2 22.6 0l52.7 52.7 52.7-52.7c6.2-6.2 16.4-6.2 22.6 0 6.2 6.2 6.2 16.4 0 22.6L278.6 256l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6-6.2 6.3-16.4 6.3-22.6 0z"
+                                            ></path>
+                                        </svg>
+                                        <span>SSO Login</span>
+                                    </li>
+                                    <li class="unavailable">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#CED7E1" style="color: #ced7e1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm52.7 283.3L256 278.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3l52.7-52.7-52.7-52.7c-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3 6.2-6.2 16.4-6.2 22.6 0l52.7 52.7 52.7-52.7c6.2-6.2 16.4-6.2 22.6 0 6.2 6.2 6.2 16.4 0 22.6L278.6 256l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6-6.2 6.3-16.4 6.3-22.6 0z"
+                                            ></path>
+                                        </svg>
+                                        <span>Custom SLA & Integration</span>
+                                    </li>
+									<li class="unavailable">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#CED7E1" style="color: #ced7e1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm52.7 283.3L256 278.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3l52.7-52.7-52.7-52.7c-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3 6.2-6.2 16.4-6.2 22.6 0l52.7 52.7 52.7-52.7c6.2-6.2 16.4-6.2 22.6 0 6.2 6.2 6.2 16.4 0 22.6L278.6 256l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6-6.2 6.3-16.4 6.3-22.6 0z"
+                                            ></path>
+                                        </svg>
+                                        <span>Dedicated Account Manager</span>
+                                    </li>
+                                </ul>
+                            </div>
+							<div class="priceCard recommended css-1jevsmd">
+                                <div class="css-3j2kqe">
+                                    <div class="priceHeader css-vurnku">
+                                        <h3 class="subTitle">Reserved</h3>
+                                        <p class="css-11cewt9">For mid/large size business</p>
+                                    </div>
+                                </div>
+                                <ul class="css-jguvb3">
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>Product Updates</span>
+                                    </li>
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>API Integration</span>
+                                    </li>
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>Dedicated Infrastructure</span>
+                                    </li>
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>SSO Login</span>
+                                    </li>
+                                    <li class="unavailable">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#CED7E1" style="color: #ced7e1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm52.7 283.3L256 278.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3l52.7-52.7-52.7-52.7c-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3 6.2-6.2 16.4-6.2 22.6 0l52.7 52.7 52.7-52.7c6.2-6.2 16.4-6.2 22.6 0 6.2 6.2 6.2 16.4 0 22.6L278.6 256l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6-6.2 6.3-16.4 6.3-22.6 0z"
+                                            ></path>
+                                        </svg>
+                                        <span>Custom SLA & Integration</span>
+                                    </li>
+									<li class="unavailable">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#CED7E1" style="color: #ced7e1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm52.7 283.3L256 278.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3l52.7-52.7-52.7-52.7c-3.1-3.1-4.7-7.2-4.7-11.3 0-4.1 1.6-8.2 4.7-11.3 6.2-6.2 16.4-6.2 22.6 0l52.7 52.7 52.7-52.7c6.2-6.2 16.4-6.2 22.6 0 6.2 6.2 6.2 16.4 0 22.6L278.6 256l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6-6.2 6.3-16.4 6.3-22.6 0z"
+                                            ></path>
+                                        </svg>
+                                        <span>Dedicated Account Manager</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="priceCard recommended css-1jevsmd">
+                                <div class="css-3j2kqe">
+                                    <div class="priceHeader css-vurnku">
+                                        <h3 class="subTitle">Enterprise</h3>
+                                        <p class="css-11cewt9">For large & global enterprise</p>
+                                    </div>
+                                </div>
+                                <ul class="css-jguvb3">
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>Product Updates</span>
+                                    </li>
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>API Integration</span>
+                                    </li>
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>Dedicated Infrastructure</span>
+                                    </li>
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>SSO Login</span>
+                                    </li>
+                                    <li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>Custom SLA & Integration</span>
+                                    </li>
+									<li class="">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#3FDBB1" style="color: #3fdbb1;" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M256 48C141.6 48 48 141.6 48 256s93.6 208 208 208 208-93.6 208-208S370.4 48 256 48zm-42.7 318.9L106.7 260.3l29.9-29.9 76.8 76.8 162.1-162.1 29.9 29.9-192.1 191.9z"></path>
+                                        </svg>
+                                        <span>Dedicated Account Manager</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>					
+				<section id="services" class="css-u0qldy">
+                    <div class="css-1whb87a">
+						<div class="css-14kdmnz">
+                            <h2 class="title">Tailor-Make Services</h2>
+                        </div>
+                        <div class="sectionInsideDiv">
+                            <div class="css-3rtbj">
+                                <div class="css-10ofgyx">
+                                    <p style="color: #28d1dc;" class="css-1382pv9"><img src=./images/ai.webp alt="AI/ML Consulting"></p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #ff753a;" class="css-1382pv9"><img src=./images/automation.webp alt="Automation Consulting"></p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #fa578e;" class="css-1382pv9"><img src=./images/cloud.webp alt="Cloud Consulting"></p>
+                                </div>
+                                <div class="css-10ofgyx">
+                                    <p style="color: #28dcb2;" class="css-1382pv9"><img src=./images/migration.webp alt="Cloud Migration"></p>
+                                </div>
+                            </div>
+                            <div class="css-vurnku">
+								<br>
+                                <div class="css-1yn2dcp">
+                                    <h2 class="title">
+                                        Consultancy services<br />
+										we do provide
+                                    </h2>
+                                    <p class="css-86pyo9">We do provide niche consulting services for SMBs to large enterprises.</p>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+                </section>  
+			</main>
+			<footer class="css-sopawf">
+            <div class="css-1whb87a">
+                <div class="css-i4q4z1">
+                    <div class="css-1hhpd6b">
+                        <span class="css-vurnku">
+                            Copyright by
+                            <!-- -->2022<!-- -->
+                            Accetion, Inc
+                        </span>
+                    </div>
+                    <div align="right">
+                        <ul class="css-1t7kdg0" align="right">
+                            <li>
+                                <a rel="noreferrer" href="https://www.linkedin.com/company/accetion" class="social-icon" target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://twitter.com/accetionlimited" class="social-icon" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://www.youtube.com/@accetion" class="social-icon" target="_blank">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noreferrer" href="https://www.facebook.com/accetionlimited" class="social-icon" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+							<li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="https://blogs.accetion.com" target="_blank">Blogs</a>
+                            </li>
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/cookiepolicy.pdf" target="_blank">Cookie Policy</a>
+                            </li>
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/privacypolicy.pdf" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a class="css-nxq3wi textDecorationNone" rel="noreferrer" href="./files/eula.pdf" target="_blank">User Agreement</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>
